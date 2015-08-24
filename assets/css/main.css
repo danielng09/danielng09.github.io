@@ -2531,8 +2531,10 @@
 		}
 
 			.spotlight .image img {
+				margin: auto;
+				max-height: 358px;
 				border-radius: 0;
-				width: 100%;
+				width: auto;
 			}
 
 		.spotlight .content {
@@ -2553,43 +2555,17 @@
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			padding-top: 40px;
+			background-color: rgba(29, 36, 42, 0.9);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(29, 36, 42, 0.9);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
-		}
-
-		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
-		}
-
-		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
-		}
-
-		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
-		}
-
-		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
-		}
-
-		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
-		}
-
-		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
-		}
-
-		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
+			background-color: rgba(29, 36, 42, 0.9);
+			padding-bottom: 20px;
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -2667,13 +2643,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c7ebe8;
-			background-color: #4696e5;
-			/*color: #d0e4f8;*/
-			background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
-			background-attachment: fixed, fixed;
-			background-size: auto, cover;
+			background-color: transparent;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2696,16 +2666,8 @@
 				background: rgba(255, 255, 255, 0.075);
 			}
 
-			.wrapper.style1 header p {
-				color: #a6e0db;
-			}
-
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
 				border-color: rgba(0, 0, 0, 0.125);
-			}
-
-			.wrapper.style1 header.major p {
-				color: #c7ebe8;
 			}
 
 			.wrapper.style1 label {
@@ -2826,11 +2788,11 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			/*background-color: transparent;*/
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: rgba(29, 36, 42, 0.9);
 			color: #d3d4e4;
 		}
 
@@ -3850,11 +3812,12 @@
 }
 
 #image-wrapper {
+	margin-top: 50px;
   width: 40%;
 }
 
 #image {
-	width: 60%;
+	width: 45%;
   margin: auto;
 }
 
