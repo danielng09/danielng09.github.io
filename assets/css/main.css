@@ -2573,6 +2573,11 @@
 			padding-bottom: 20px;
 		}
 
+		.spotlight:nth-child(5) {
+			background-color: rgba(29, 36, 42, 0.9);
+			padding-bottom: 20px;
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
